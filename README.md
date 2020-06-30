@@ -81,7 +81,7 @@ if __name__ == '__main__':
 输出的时序图如下：
 
 ![在这里插入图片描述](https://img-blog.csdnimg.cn/20200701001314694.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80Mjc0NDEwMg==,size_16,color_FFFFFF,t_70)
-可以看见D触发器时序是正确的（输入数据延迟了一个时钟周期后输出）
+可以看见D触发器时序是正确的（输入数据延迟了一个时钟周期后输出）注：图片水印是本人的CSDN博客
 
 下面讲一讲Tester的参数：
 use_num_for_plot:默认为True，意味画图时横坐标为离散的值，通过计数器确定横坐标，若为False，则横坐标为unix时间戳的电路开始运转时的差值。
